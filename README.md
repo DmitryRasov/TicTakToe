@@ -2,6 +2,7 @@
 ## _In production (в процессе)_
 
 This is a pretty inelaborate game that can help you to cope with your boreness at least for 5 minutes
+Ненавязчивая игрушка, способная убить пять минут вашего времени
 
 
 ## Features
