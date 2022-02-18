@@ -19,3 +19,5 @@ This is a pretty inelaborate game that can help you to cope with your boreness a
 - JavaScript
 
 **wish me luck**
+
+https://dmitryrasov.github.io/TicTakToe/
