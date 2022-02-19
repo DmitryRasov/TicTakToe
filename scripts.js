@@ -56,9 +56,8 @@ function bot (runBot){
         playerSign = 'O'
         let array = []; //for sorting blocks that remain | массив для оставшихся пустых клеток
         for (let i = 0; i < allBox.length; i++){
-            if (allBox[i].childElementCount == 0){ // если в спане нет внутренних элементов
+            if (allBox[i].childElementCount == 0){ 
                 array.push(i)
-                // console.log(i + '' + 'has no children')
             }
         }
         let randomBox = array[Math.floor(Math.random() * array.length)] // getting random index for bot to fill | рандомные числа из массива пустых ячеек для бота
