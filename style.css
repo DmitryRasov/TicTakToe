@@ -68,7 +68,6 @@ body {
 .options button.playerY {
     margin-left: 5px;
 }
-
 .options button:hover,
 .result-box .btn button:hover {
     transform: scale(0.95);
@@ -120,12 +119,11 @@ body {
     z-index: 2; 
     transition: all 0.3 ease;
 }
-
 .players.active span:first-child {
     color: #538f8d;
 }
-.players.active span:last-child {
-    color: #fff;
+.players.active span:nth-child(2) {
+    color: #fff; 
 }
 .players.active .slider {
     left: 50%;
@@ -135,7 +133,6 @@ body {
 }
 .play-board section {
     display: flex;
-    
 }
 .play-board section span {
     display: block;
@@ -149,14 +146,20 @@ body {
     line-height: 80px;
     color: #40474b;
 }
-
 .result-box {
     background: #e8e8de;
     padding: 20px;
     border-radius: 5px;
     max-width: 350px;
     width: 100%;
-    display: none;
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%,-50%) scale(0.9);
+}
+.result-box.show{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%,-50%) scale(1);
 }
 .result-box .won-text{
     font-size: 25px;
